@@ -1,12 +1,8 @@
-# 欢迎来到我的小站 👋
+# 个人简介 👋
 
-这是一个用 **Python 的 MkDocs + Material 主题** 生成的静态网站。
-你可以用 Markdown 写文章，然后一键生成网页。
+[![GitHub](https://img.shields.io/badge/GitHub-xuerong2024-black?logo=github&style=flat-square)](https://github.com/xuerong2024)
 
-- 📝 文章请放在 `docs/` 目录
-- 🚀 本地预览：`mkdocs serve`
-- 🏗️ 构建静态站点：`mkdocs build`
-
-想换主题或外观？编辑根目录下的 `mkdocs.yml`。
-
-> 下面是我的最新文章：
+专注于 **医学影像处理与多模态学习**，具备扎实的深度学习与工程实现能力。  
+硕士期间已在 *Eclinicalmedicine*、*EAAI* 等期刊发表论文，并有多篇工作在投。  
+熟悉 **Transformer、CNN、RNN、LSTM** 等网络原理，有 **Adapter 微调经验和工程落地经验**。  
+参与过：医学图像处理、视频分类与检测、文本信息结构化处理等任务

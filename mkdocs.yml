@@ -1,6 +1,6 @@
 site_name: 我的个人主页
 site_description: 一个用 Python MkDocs 搭建的个人站点
-site_author: 你的名字
+site_author: xuerong Wang
 theme:
   name: material
   language: zh
@@ -16,10 +16,15 @@ nav:
   - 关于我: about.md
   - 博客:
       - 博客首页: blog/index.md
-      - 第一篇文章: blog/hello-world.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 extra:
   social:
-    - icon: material/github
-      link: https://github.com/yourname
-    - icon: material/email
-      link: mailto:you@example.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/xuerong2024
+
+extra_css:
+  - stylesheets/extra.css
