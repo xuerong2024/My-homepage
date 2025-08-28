@@ -15,23 +15,11 @@
 ---
 
 ### **双时医学图像变化的时序分割方法** *(2024.04–2024.07)*
-<div style="display:flex; align-items:flex-start;">
+![tumor](images/DEVA.png){ width="100%" }
 
-  <!-- 左列（文字） -->
-  <div style="flex:1; text-align:left;">
-    <ul>
-      <li>借鉴<b>视频分割方法 DEVA</b>的时序传播机制，用于双时 CT 图像变化检测</li>
-      <li>捕捉时间维度细微差异，提高分割的一致性与鲁棒性</li>
-      <li><b>成果</b>显著提升 Dice 指标，申请发明已完成</li>
-    </ul>
-  </div>
-
-  <!-- 右列（图片，居中） -->
-  <div style="flex:0 0 220px; text-align:left; margin-left:0px;">
-    <img src="/images/DEVA.png" alt="Video segmentation" width="220"/>
-  </div>
-
-</div>
+- 借鉴**视频分割方法 DEVA**的时序传播机制，用于双时 CT 图像变化检测
+- 捕捉时间维度细微差异，提高分割的一致性与鲁棒性
+- **成果**显著提升 Dice 指标，申请发明已完成
 
 ### **Context and Orientation Correction** (EAAI, 2023)
 ![tumor](images/coc.png){ width="100%" }

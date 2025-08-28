@@ -9,7 +9,7 @@
         <meta name="description" content="一个用 Python MkDocs 搭建的个人站点">
       
       
-        <meta name="author" content="你的名字">
+        <meta name="author" content="xuerong Wang">
       
       
       
@@ -46,6 +46,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -300,6 +302,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    关于我
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -311,6 +326,103 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔬 科研与项目经历
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔬 科研与项目经历">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#201901202012" class="md-nav__link">
+    <span class="md-ellipsis">
+      原发性腹膜后肿瘤诊断与分割（多中心研究） (2019.01–2020.12)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#202404202407" class="md-nav__link">
+    <span class="md-ellipsis">
+      双时医学图像变化的时序分割方法 (2024.04–2024.07)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#context-and-orientation-correction-eaai-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      Context and Orientation Correction (EAAI, 2023)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#202406" class="md-nav__link">
+    <span class="md-ellipsis">
+      多模态肺炎分类 (2024.06–至今)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      📄 发表论文
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      💻 技术技能
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏆 荣誉与竞赛
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -380,29 +492,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../blog/hello-world/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    第一篇文章
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -427,8 +516,85 @@
 
 
 <h1 id="_1">关于我</h1>
-<p>这里写你的简介、擅长方向和社交链接。
-可以在 <code>mkdocs.yml</code> 里配置社交图标。</p>
+<h2 id="_2">🔬 科研与项目经历</h2>
+<h3 id="201901202012"><strong>原发性腹膜后肿瘤诊断与分割（多中心研究）</strong> <em>(2019.01–2020.12)</em></h3>
+<p><img alt="tumor" src="../images/tumor.png" width="30%" />
+<img alt="tumor2" src="../images/tumor2.png" width="30%" />
+<img alt="pred" src="../images/pred_vs_results.png" width="30%" /></p>
+<ul>
+<li>搭建 3D 医学图像深度学习框架，实现 <strong>肿瘤区域精准分割与分类</strong>  </li>
+<li>引入医学图像预训练大模型、视频目标检测方法改进分割效果  </li>
+<li>完成数据预处理（DICOM → NIfTI）、Linux/conda 实验环境搭建  </li>
+<li><strong>成果</strong>：论文发表于 <em>Eclinicalmedicine</em>  </li>
+</ul>
+<hr />
+<h3 id="202404202407"><strong>双时医学图像变化的时序分割方法</strong> <em>(2024.04–2024.07)</em></h3>
+<div style="display:flex; align-items:flex-start;">
+
+  <!-- 左列（文字） -->
+  <div style="flex:1; text-align:left;">
+    <ul>
+      <li>借鉴<b>视频分割方法 DEVA</b>的时序传播机制，用于双时 CT 图像变化检测</li>
+      <li>捕捉时间维度细微差异，提高分割的一致性与鲁棒性</li>
+      <li><b>成果</b>显著提升 Dice 指标，申请发明已完成</li>
+    </ul>
+  </div>
+
+  <!-- 右列（图片，居中） -->
+  <div style="flex:0 0 220px; text-align:left; margin-left:0px;">
+    <img src="/images/DEVA.png" alt="Video segmentation" width="220"/>
+  </div>
+
+</div>
+
+<h3 id="context-and-orientation-correction-eaai-2023"><strong>Context and Orientation Correction</strong> (EAAI, 2023)</h3>
+<p><img alt="tumor" src="../images/coc.png" width="100%" /></p>
+<ul>
+<li>针对弱监督遥感目标检测中的 <strong>上下文模糊与方向不确定性</strong> 问题，提出 <strong>Context and Orientation Correction (COC) 框架</strong>  </li>
+<li><strong>创新点</strong>：  <ul>
+<li><strong>上下文校正模块</strong>：利用风格归一化，缓解实例间上下文差异，提升异常目标识别能力  </li>
+<li><strong>方向校正模块</strong>：基于对比学习，缩小不同方向实例的特征距离，保证目标表征一致性  </li>
+<li><strong>类别感知聚合损失</strong>：提升同类目标特征相似度，解决对比学习中的类别冲突问题</li>
+</ul>
+</li>
+<li><strong>成果</strong>：  <ul>
+<li>DIOR 数据集 mAP = <strong>27.6%</strong>  </li>
+<li>NWPU VHR-10.v2 数据集 mAP = <strong>59.8%</strong>  </li>
+</ul>
+</li>
+<li>论文发表于 <strong>Engineering Applications of Artificial Intelligence (EAAI, 2023)</strong></li>
+</ul>
+<h3 id="202406"><strong>多模态肺炎分类</strong> <em>(2024.06–至今)</em></h3>
+<ul>
+<li>设计 <strong>CT + 临床数据</strong> 的融合框架，引入跨模态注意力机制  </li>
+<li>提升肺炎分类准确率，性能优于单模态模型  </li>
+<li><strong>成果</strong>：论文准备投稿 <em>IEEE TMI</em> </li>
+</ul>
+<hr />
+<h2 id="_3">📄 <strong>发表论文</strong></h2>
+<ul>
+<li><em>Eclinicalmedicine</em> — End-to-End Deep Learning for Retroperitoneal Tumor Segmentation (2024)  </li>
+<li><em>EAAI</em> — Contextual and Orientation Correction Modules Enhance Weakly-Supervised Aerial Object Detection (2023)  </li>
+<li><em>IEEE TMI</em>（在投） — Multimodal Learning for Pneumonia Classification (2025)  </li>
+</ul>
+<hr />
+<h2 id="_4">💻 <strong>技术技能</strong></h2>
+<ul>
+<li><strong>深度学习框架</strong>：PyTorch, TensorFlow, mmAction2, nnUNet, DEVA  </li>
+<li><strong>医学图像处理</strong>：LVM-Med, MONAI, DICOM/NIfTI, SimpleITK  </li>
+<li><strong>多模态学习</strong>：图像 + 表格/文本融合，视频目标检测  </li>
+<li><strong>工程与工具</strong>：Linux, Docker, Git, Hadoop, Spark  </li>
+<li><strong>编程语言</strong>：Python, C++, C#, SQL  </li>
+<li><strong>可视化</strong>：ECharts, Matplotlib, Seaborn  </li>
+</ul>
+<h2 id="_5">🏆 <strong>荣誉与竞赛</strong></h2>
+<ul>
+<li>ICPC 亚洲区域赛铜奖（C++）  </li>
+<li>全国大学生数学建模竞赛 一等奖  </li>
+<li>全国大学生英语竞赛 一等奖  </li>
+<li>美国大学生数学建模 H 奖  </li>
+<li>中国高校计算机大赛-天梯赛省三 </li>
+</ul>
 
 
 
@@ -475,16 +641,8 @@
       
       
     
-    <a href="https://github.com/yourname" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
-    </a>
-  
-    
-    
-    
-    
-    <a href="mailto:you@example.com" target="_blank" rel="noopener" title="" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m20 8-8 5-8-5V6l8 5 8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg>
+    <a href="https://github.com/xuerong2024" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
 </div>
