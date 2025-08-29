@@ -13,9 +13,9 @@ plugins:
   - search
 nav:
   - 首页: index.md
-  - 关于我: about.md
-  - 博客:
-      - 博客首页: blog/index.md
+  - 关于我:
+      - 科研经历: about.md
+      - 实习经历: experience.md
 
 markdown_extensions:
   - attr_list
