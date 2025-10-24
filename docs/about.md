@@ -3,6 +3,9 @@
 ## 🔬 科研与项目经历
 
 ### **原发性腹膜后肿瘤诊断与分割（多中心研究）** *(2024.01–2024.12)*
+[📄 *End-to-end deep learning model for the diagnosis and segmentation of primary retroperitoneal neoplasm: a multicenter cohort study*](https://www.sciencedirect.com/science/article/pii/S2589537025004316)  
+*(Published in **EClinicalMedicine**, 2025)*  
+
 ![tumor](images/tumor.png){ width="30%" }
 ![tumor2](images/tumor2.png){ width="30%" }
 ![pred](images/pred_vs_results.png){ width="30%" }
@@ -12,15 +15,10 @@
 - 完成数据预处理（DICOM → NIfTI）、Linux/conda 实验环境搭建  
 - **成果**：论文发表于 *Eclinicalmedicine*  
 
-
-### **双时医学图像变化的时序分割方法** *(2024.01–2024.12)*
-![tumor](images/DEVA.png){ width="100%" }
-
-- 借鉴**视频分割方法 DEVA**的时序传播机制，用于双时 CT 图像变化检测
-- 捕捉时间维度细微差异，提高分割的一致性与鲁棒性
-- **成果**显著提升 Dice 指标，申请发明已完成
-
 ### **Context and Orientation Correction** (EAAI, 2023)
+[📄 *Contextual and orientation correction modules enhance weakly-supervised aerial object detection in remote sensing images*](https://www.sciencedirect.com/science/article/abs/pii/S0952197625021189)  
+*(Published in **Engineering Applications of Artificial Intelligence**, 2023)*  
+
 ![tumor](images/coc.png){ width="100%" }
 
 - 针对弱监督遥感目标检测中的 **上下文模糊与方向不确定性** 问题，提出 **Context and Orientation Correction (COC) 框架**  
@@ -32,6 +30,13 @@
     - DIOR 数据集 mAP = **27.6%**  
     - NWPU VHR-10.v2 数据集 mAP = **59.8%**  
 - 论文发表于 **Engineering Applications of Artificial Intelligence (EAAI, 2023)**
+
+### **双时医学图像变化的时序分割方法** *(2024.01–2024.12)*
+![tumor](images/DEVA.png){ width="100%" }
+
+- 借鉴**视频分割方法 DEVA**的时序传播机制，用于双时 CT 图像变化检测
+- 捕捉时间维度细微差异，提高分割的一致性与鲁棒性
+- **成果**显著提升 Dice 指标，申请发明已完成
 
 ### **多模态肺炎分类** *(2024.06–至今)*
 - 设计 **CT + 临床数据** 的融合框架，引入跨模态注意力机制  
@@ -71,3 +76,4 @@
 - 全国大学生英语竞赛 一等奖  
 - 美国大学生数学建模 H 奖  
 - 中国高校计算机大赛-天梯赛省三 
+- “大唐杯”全国大学生新一代信息通信技术大赛 三等奖
